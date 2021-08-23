@@ -1,3 +1,5 @@
+![React Redux](https://github.com/gouravmakhija18/redux-demo/blob/main/react-redux.png?raw=true)
+
 # Redux Demo Application for learning
 
 - **Demo 1:** Counter application using redux implementation and without redux using class and functional component.
