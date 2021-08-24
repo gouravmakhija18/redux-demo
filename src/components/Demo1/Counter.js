@@ -35,6 +35,10 @@ function HookCounter() {
   )
 }
 
+/**
+ * Counter Demo using React class
+ */
+
 class ClassCounter extends Component {
   state = {
     count: 0
