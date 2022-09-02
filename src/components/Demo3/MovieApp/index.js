@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import MovieApp from './components'
 
 /**
- * Lets put reducer now in seperate folder name as reducer
+ * Lets put reducer now in separate folder name as reducer
  * 
  * Important: 
  * 1) When there is single reducer then we create store like
