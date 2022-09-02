@@ -2,8 +2,8 @@ import { HookCounter, ClassCounter } from "./components/Demo1/Counter";
 import ReducerCounter from "./components/Demo1/ReduxCounter/index";
 import Todo from "./components/Demo2/Todo";
 import MovieAppWrapper from './components/Demo3/MovieApp';
-
-import ReduxThunkShoppingCart from './components/Demo4/ReduxThunkShoppingCart'
+import ReduxThunkShoppingCart from './components/Demo4/ReduxThunkShoppingCart';
+import SearchFromList from "./components/Demo5/SearchFromList";
 
 function App() {
   return (
@@ -26,6 +26,9 @@ function App() {
 
       {/* Redux Shopping Cart Demo using Middleware redux-thunk */}
       <ReduxThunkShoppingCart />
+
+      {/* Redux SearchBar component using mapStateToProps and  mapDispatchToProps */}
+      <SearchFromList />
     </div>
   );
 }
